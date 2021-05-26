@@ -30,8 +30,8 @@ class WickWrapper {
 	/**
 	 * - Wrapper for the module 'node-wick'
 	 * @param {String} path
-	 * @author Sprayxe
 	 * @author tornado
+	 * @author Sprayxe
 	 */
 	constructor(path = "C:\\Program Files\\Epic Games\\Fortnite\\FortniteGame\\Content\\Paks\\") {
 		this.Path = path.endsWith("\\") ? path : path + "\\";
